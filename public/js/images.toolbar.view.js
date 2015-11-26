@@ -35,7 +35,7 @@
 
                 this.uploader = $(this.$el).find('#fine-uploader').imageUploader({
                     complete: function(response) {
-                        self.model.set("name", response._id);
+                        self.model.fetch();
                     },
                     getId: function() {
                         return self.model.get("shortid");
@@ -44,7 +44,7 @@
             },
 
             save: function() {
-                this.model.save();
+                this.model.save({});
             },
 
             upload: function() {
