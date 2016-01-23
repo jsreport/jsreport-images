@@ -5,7 +5,7 @@
         url: function () {
             var qs = this.filter.toOData();
             qs.$orderby = "modificationDate desc";
-            qs.$select = "shortid,name,creationDate,modificationDate,contentType";
+            qs.$select = "_id,shortid,name,creationDate,modificationDate,contentType";
             return "odata/images?" + $.param(qs);
         },
 
