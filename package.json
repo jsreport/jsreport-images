@@ -41,7 +41,7 @@
     "eslint": "2.11.1",
     "eslint-config-standard-jsx": "1.2.1",
     "eslint-plugin-babel": "3.2.0",
-    "jsreport-core": "*",
+    "jsreport-core": "next",
     "jsreport-express": "*",
     "jsreport-studio-dev": "0.2.8",
     "jsreport-templates": "*",

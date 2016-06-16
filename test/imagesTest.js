@@ -38,7 +38,9 @@ describe('images', function () {
   it('should replace image tag with full base64 content', function (done) {
     reporter.images.upload('test withSpace', 'image/jpeg', new Buffer([1, 2, 3]))
       .then(function () {
-        var request = {}
+        var request = {
+          logger: reporter.logger
+        }
 
         var response = {
           content: new Buffer('a{#image test withSpace}')
@@ -54,7 +56,9 @@ describe('images', function () {
   it('should replace image tag with plain base64 content', function (done) {
     reporter.images.upload('foo', 'image/jpeg', new Buffer([1, 2, 3]))
       .then(function () {
-        var request = {}
+        var request = {
+          logger: reporter.logger
+        }
 
         var response = {
           content: new Buffer('a{#image foo @encoding=base64}')
