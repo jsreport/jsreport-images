@@ -43,7 +43,7 @@
     "eslint-plugin-babel": "3.2.0",
     "jsreport-core": "next",
     "jsreport-express": "next",
-    "jsreport-studio-dev": "0.2.8",
+    "jsreport-studio-dev": "0.3.0",
     "jsreport-templates": "next",
     "mocha": "2.5.3",
     "standard": "7.1.2",
