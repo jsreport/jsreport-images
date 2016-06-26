@@ -30,7 +30,7 @@ export default class ImageEditor extends Component {
       </div>
 
       <div style={{overflow: 'auto'}}>
-        <img src={'data:image/png;base64,' + entity.content} style={{display: 'block', margin: '3rem auto'}} />
+        <img src={'data:' + entity.contentType + ';base64,' + entity.content} style={{display: 'block', margin: '3rem auto'}} />
       </div>
     </div>)
   }
