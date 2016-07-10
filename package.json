@@ -1,6 +1,6 @@
 {
   "name": "jsreport-images",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "jsreport extension for storing static images inside the store and embedding them into templates",
   "scripts": {
     "test": "mocha test --timeout 10000 && standard",
