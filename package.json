@@ -29,9 +29,9 @@
   "license": "LGPL",
   "dependencies": {
     "async-replace": "1.0.1",
+    "bluebird": "3.4.7",
     "in-publish": "2.0.0",
     "multer": "1.1.0",
-    "q": "1.4.1",
     "shortid": "2.2.6",
     "underscore": "1.8.3"
   },
@@ -50,6 +50,9 @@
     "supertest": "1.2.0"
   },
   "files": [
-    "lib", "studio", "index.js", "jsreport.config.js"
+    "lib",
+    "studio",
+    "index.js",
+    "jsreport.config.js"
   ]
 }
