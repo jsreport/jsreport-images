@@ -4,12 +4,12 @@
 
 > jsreport extension for storing static images inside the store and embedding them into templates
 
-See http://jsreport.net/learn/images
+See https://jsreport.net/learn/images
 
-##Installation
+## Installation
 > npm install jsreport-images
 
-##jsreport-core
+## jsreport-core
 You can apply this extension also manually to [jsreport-core](https://github.com/jsreport/jsreport-core)
 
 ```js
