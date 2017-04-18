@@ -15,7 +15,7 @@ describe('images', function () {
 
     reporter.init().then(function () {
       done()
-    }).fail(done)
+    }).catch(done)
   })
 
   it('shoulb be able to upload', function (done) {
